@@ -1,7 +1,5 @@
 def using_push(array, string)
   new_array = []
-  array.each do | i |
-    new_array.push(i + string)
-  end
+  new_array.push(string)
   return new_array
 end
