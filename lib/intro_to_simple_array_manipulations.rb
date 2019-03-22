@@ -14,3 +14,8 @@ def using_pop(array)
   element = array.pop
   return element
 end
+
+def pop_with_args(array)
+  elements = array.pop(2)
+  return elements
+end
